@@ -1,8 +1,15 @@
-import React from 'react'
+import Home from "./pages/Home"
+import Canvas from "./canvas"
+import Customizer from "./pages/Customizer"
+
 
 const App = () => {
   return (
-    <div className=' text-xl font-bold'>App</div>
+    <main className="app transition-all ease-in">
+    <Home />
+    <Canvas />
+    <Customizer />
+  </main>
   )
 }
 
